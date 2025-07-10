@@ -32,8 +32,9 @@ nav h3{
 
 main{
     margin: 0 auto;
+    
 }
-section{
+.first-part{
     display: flex;
     justify-content: space-between;
     margin: 50px 90px;
@@ -42,7 +43,28 @@ section{
 }
 .sub-1{
     text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;
+    
+}
+.sub-1-heading{
+    font-weight: bold;
+    font-size: 50px;
 }
 .sub-1-image{
-    border-radius: 20px;
+    border-radius: 25px;
+}    
+.second-part{
+    
+    background-color: #4E47FF;
+    margin: 0 auto;
+}
+
+
+.step-3-heading{
+    text-align: center;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
 }
