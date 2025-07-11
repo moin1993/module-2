@@ -54,7 +54,7 @@ main{
     
 }
 .sub-1{
-    text-align: center;
+    text-align: left;
     margin-top: 60px;
     margin-left: 30px;
     
@@ -64,7 +64,7 @@ main{
     font-size: 50px;
 }
 .sub-1-image{
-    border-radius: 25px;
+    border-radius: 35px;
 }    
 .step-3{
     background-color: #e0dff3;
@@ -108,6 +108,9 @@ main{
 .div-4-p{
     color: #8987A1;
 }
+.contact{
+    text-align: left;
+}
 .contacts{
     display: flex;
     justify-content: center;
@@ -117,16 +120,11 @@ main{
     background-color: aliceblue;
     
 }
-.contact, input[type=text], input[type=email], input=[textarea]{
-    height: 70px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    display: block;
-    width: 100%;
-    padding: 10px 10px;
-    
-    
-
+.contact, input[type=text], input[type=email], textarea[name=text]{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
     
 }
 
@@ -141,6 +139,7 @@ main{
 footer{
     width: 100%;
     height:200px;
+    margin: 100px 20px;
     
     text-align: center;
     
@@ -160,7 +159,7 @@ footer{
 .footer-list{
     display: flex;
     justify-content: center;  
-    gap: 27px;
+    gap: 30px;
 
 
 }
