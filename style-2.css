@@ -88,15 +88,17 @@ main{
     gap: 200px;
     margin: 40px auto;
     max-width: 1140px;
+    background-color: aliceblue;
     
 }
 .contact, input[type=text], input[type=email], input=[textarea]{
-    height: 64px;
+    height: 70px;
     border-radius: 5px;
     background-color: #FFFFFF;
     display: block;
     width: 100%;
     padding: 10px 10px;
+    
     
 
     
@@ -131,9 +133,54 @@ footer{
 .footer-2{
     display: flex;
     justify-content: space-around;
-    
-    
+    color: #8987A1;
+        
 
 }
 
+.footer-heading{
+    font-weight: 900px;
+    font-size: 60px;
+    color: blue;
+}
 
+.footer-description{
+    color: #8987A1;
+}
+
+.card-section{
+    margin: 0 auto;
+    background-color: aliceblue;
+
+    
+}
+.card-h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+.card-1{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.card-des{
+    padding-right: 100px;
+    
+}
+.card-p-1{
+    margin-bottom: 2px;
+}
+
+.card-pro{
+    width: 200px;
+    border: 2px solid rgb(243, 176, 176)
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
