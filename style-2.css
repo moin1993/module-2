@@ -31,6 +31,7 @@ nav h3{
 }
 
 main{
+    max-width: 1140px;
     margin: 0 auto;
     
 }
@@ -54,10 +55,10 @@ main{
 .sub-1-image{
     border-radius: 25px;
 }    
-.second-part{
-    
-    background-color: #4E47FF;
-    margin: 0 auto;
+.step-3{
+    background-color: #807cec;
+    border-radius: 20px; 
+    padding: 20px 80px;
 }
 
 
@@ -67,4 +68,46 @@ main{
 .users{
     display: flex;
     justify-content: space-around;
+    
 }
+.step-4{
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    
+}
+.step-4-image{
+    border-radius: 25px;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 40px auto;
+    max-width: 1140px;
+    
+}
+.contact, input[type=text], input[type=email], input=[textarea]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    
+
+    
+}
+
+
+
+.contact-heading{
+    padding-top: 100px;
+    font-weight: 580px;
+    font-size: 70px;
+}
+
+
